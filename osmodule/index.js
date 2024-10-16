@@ -14,5 +14,5 @@ console.log("free memory", `${os.freemem() / 1024 / 1024 / 1024}`);
 console.log(os.release());
 console.log(os.version());
 console.log(os.totalmem());
-// console.log(os.networkInterfaces());
+console.log(os.networkInterfaces());
 

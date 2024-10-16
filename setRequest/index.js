@@ -14,8 +14,6 @@ server.listen(port, () => {
   }; 
   
   var request = http.request(options);
-  
-//   request.setHeader('data', ['type=ninja', 'language=javascript']);
 
   request.setHeader('content-type', 'text/html');
 
